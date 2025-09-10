@@ -1,0 +1,236 @@
+{
+  "IndexPage": {
+    "title": "A-PRO LTD",
+    "description": "Welcome to the Next.js Internationalization (i18n) example! This demo showcases the power of the App Router and how to manage multilingual content seamlessly using next-intl."
+  },
+  "NotFoundPage": {
+    "title": "Page Not Found",
+    "description": "Oops! It seems like you've stumbled upon a page that doesn't exist. Don't worry, our internationalization magic is still hard at work on other parts of the app. Feel free to navigate back to explore more!"
+  },
+  "Navigation": {
+    "home": "Home",
+    "about": "About us",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "logoAlt": "NESPI logo",
+    "services": " Main directions",
+    "contacts": "Contacts"
+  },
+  "Footer": {
+    "contacts": {
+      "title": "2023 A-PRO Ltd. All rights reserved.",
+      "phone": "Phone: +7 (777) 392-72-27",
+      "address": "Address: Kazakhstan, Astana city, Nura district, 56 Turan Avenue, apartment 8, postal code 010000",
+      "email": "info@a-pro.center / ais.pro.kz@gmail.com"
+    },
+    "social": {
+      "title": "Social networks"
+    },
+    "copyright": "A-PRO Ltd. All rights reserved.",
+    "company": {
+      "title": "About the company",
+      "description": "A-PRO Ltd is an innovative company specializing in the development of advanced solutions for business."
+    }
+  },
+  "Home": {
+    "hero": {
+      "title": "Welcome to our company",
+      "subtitle": "We provide quality services as an effective long-term investment!"
+    },
+    "whyUs": {
+      "title": "Why choose us",
+      "cards": [
+        {"title": "Individual approach", "desc": "Every solution is tailored to your needs and goals"},
+        {"title": "Honesty and support", "desc": "Openness, transparency, and help at every stage"},
+        {"title": "Innovative strategy", "desc": "A future-oriented development model based on innovation, product, process, or business model improvement. It helps organizations adapt to changes, create unique advantages, and enter new markets."},
+        {"title": "Growth and development", "desc": "We help you grow and develop even after the project is completed"}
+      ]
+    },
+    "advantages": {
+      "title": "Our advantages",
+      "items": [
+        "Professional team",
+        "Eco-friendly client orientation",
+        "Quality guarantee"
+      ]
+    },
+    "howWeWork": {
+      "title": "How we work",
+      "cards": [
+        {"title": "Analysis", "desc": "We study your tasks and goals"},
+        {"title": "Idea", "desc": "We offer a concept and strategy"},
+        {"title": "Implementation", "desc": "We bring the project to life"},
+        {"title": "Support", "desc": "We support and develop your project"},
+        {"title": "Potential collaborations", "desc": "Further cooperation and possible joint projects"}
+      ]
+    },
+    "cta": {
+      "title": "Ready for development and to start your resourceful journey?",
+      "desc": "Contact us today — together we will take a step towards a better future!",
+      "button": "Contact us"
+    }
+  },
+  "About": {
+    "hero": {
+      "title": "About our company",
+      "desc": "The International Expert Center is a collaborative platform that brings together experts from various fields striving to implement advanced ideas and solutions. We gather specialists, researchers, and practitioners ready to share their experience and knowledge, as well as collaborate to achieve sustainable development and innovative breakthroughs. Our team consists of highly qualified professionals with extensive experience and successful cases."
+    },
+    "aboutImageAlt": "About us",
+    "mission": {
+      "title": "Our mission",
+      "desc": "Our mission is to provide a platform for knowledge and experience exchange among experts, as well as to promote the implementation of innovative solutions in various fields. We actively work on creating quality content, conducting research, organizing events, and building cooperation networks. We believe that joint actions can lead to significant changes and growth."
+    },
+    "vision": {
+      "title": "Our vision",
+      "desc": "We strive to create a space for cooperation and dialogue between specialists from different fields. Our goal is to form a society where knowledge and skills are effectively used to solve current problems and for overall development. We believe that through cooperation, it is possible to achieve harmony and sustainability on a global level."
+    },
+    "team": {
+      "title": "Our team",
+      "members": [
+        {
+          "name": "Ainur Ishimgaliyeva",
+          "position": "Founder and CEO of A-PRO LTD",
+          "photo": "/images/photo3.jpeg"
+        },
+        {
+          "name": "TOO neSPI",
+          "position": "Co-founder, partner",
+          "photo": "/images/logo_off.jpeg"
+        },
+        {
+          "name": "Adam Ishimgaliyev",
+          "position": "Co-founder, international direction",
+          "photo": "/images/photo4.jpeg"
+        },
+        {
+          "name": "Bakhyt Zhumadilova",
+          "position": "Co-founder of neSPI LLP, HR Director",
+          "photo": "/images/photo5.jpeg"
+        }
+      ]
+    }
+  },
+  "Person1": {
+    "name": "Ainur Ishimgaliyeva",
+    "fullname": "Ainur Serikovna Ishimgaliyeva, M.A.Ed.",
+    "degree": "Master of Pedagogical Sciences",
+    "expertise": "Expert in finance, law, public policy, and education.",
+    "ipma": "Certified Project Management Associate IPMA",
+    "assessor": "Certified Assessor Assessment, SHL",
+    "back": "Back"
+  },
+  "Person2": {
+    "team": {
+      "members": [
+        { "name": "Rustem Zhantenov ", "position": "Founder of neSPI LLP ", "photo": "/images/photo2.jpeg" },
+        { "name": "Sergey Tsiryulnikov ", "position": "Co-founder of neSPI LLP", "photo": "/images/photo1.jpeg " },
+        { "name": "Bakhtiyar Murzataev ", "position": "Co-founder of neSPI LLP ", "photo": "/images/photo6.jpeg" },
+        { "name": "Bakhyt Zhumadilova ", "position": "Co-founder of neSPI LLP ", "photo": "/images/photo5.jpeg" },
+        { "name": "Ernar Zhanakhmetov ", "position": "Co-founder of neSPI LLP ", "photo": "/images/photo7.jpeg" }
+      ]
+    },
+    "back": "Back"
+  },
+  "Person3": {
+    "name": "Adam Ishimgaliyev",
+    "degree": "Bachelor in Foreign Languages (English and German)",
+    "expertise": "Expert in multilingual education, human rights, preventive diplomacy, and intercultural communication.",
+    "roles": "Youth representative | Linguist | Public speaker",
+    "platforms": "Peacebuilding and cooperation through international youth platforms",
+    "achievements": "IELTS 7.5 (C1, advanced) | C5+1 Youth Council member | Graduate of the Preventive Diplomacy Academy (UNRCCA)",
+    "back": "Back"
+  },
+  "Services": {
+    "title": "Our Services",
+    "list": [
+      {
+        "title": "Language Training/Foreign Languages",
+        "description": "English language courses for all ages: Learn English for various purposes – from everyday communication to professional activities.",
+        "icon": "/images/logo0.jpg",
+        "features": [
+          "Corporate website development",
+          "Online stores",
+          "Web applications",
+          "Technical support"
+        ]
+      },
+      {
+        "title": "International Communication",
+        "description": "Preparation for negotiations at various levels: Developing negotiation skills, effective communication with international partners, conflict resolution, and achieving mutually beneficial agreements.",
+        "icon": "/images/logo0.jpg",
+        "features": [
+          "iOS applications",
+          "Android applications",
+          "Cross-platform development",
+          "UI/UX design"
+        ]
+      },
+      {
+        "title": "Mentoring and Coaching",
+        "description": "Educational courses, trainings. Masterminds and supervisions for experts/trainers. Business mentoring: Providing expert support and consultations for aspiring entrepreneurs and managers of small and medium-sized businesses. Sports coaching: Developing sports skills and achieving goals in sports through individual support and training. Sports mentoring for all categories: Supporting athletes of all levels, from beginners to professionals, in achieving their goals.",
+        "icon": "/images/logo0.jpg",
+        "features": [
+          "Business analysis",
+          "Strategic planning",
+          "Process optimization",
+          "Marketing solutions"
+        ]
+      },
+      {
+        "title": "Social Adaptation and Integration",
+        "description": "Social adaptation and post-military integration program: Providing assistance to people in social adaptation, psychological support, and integration into society.",
+        "icon": "/images/logo0.jpg",
+        "features": [
+          "Account management",
+          "Content creation",
+          "Targeted advertising",
+          "Analytics and reporting"
+        ]
+      },
+      {
+        "title": "Management Development",
+        "description": "Enhancing the skills and competencies of leaders and managers to improve their ability to effectively manage teams, projects, and the organization as a whole. Courses, trainings, coaching, and mentoring programs tailored to the specific needs of participants.",
+        "icon": "/images/logo0.jpg",
+        "features": [
+          "Website audit",
+          "Internal optimization",
+          "External optimization",
+          "Position monitoring"
+        ]
+      },
+      {
+        "title": "Business Analytics and Promotion",
+        "description": "Project analytics: Conducting project analysis to determine their effectiveness, identify risks, and develop recommendations for improvement. PR business promotion: Developing and implementing business promotion strategies, strengthening the company's reputation, and attracting new clients.",
+        "icon": "/images/logo0.jpg",
+        "features": [
+          "Infrastructure support",
+          "Server maintenance",
+          "Workplace setup",
+          "IT consulting"
+        ]
+      },
+      {
+        "title": "Research and Development",
+        "description": "Publications and reports. Development of new models, methods, and concepts aimed at solving specific problems of business and society. Collaboration and partnership. Consulting. Conducting seminars and educational programs.",
+        "icon": "/images/logo0.jpg",
+        "features": [
+          "Cloud migration",
+          "Cloud storage setup",
+          "Service integration",
+          "Data security"
+        ]
+      }
+    ]
+  },
+  "Contacts": {
+    "title": "Contact Us",
+    "subtitle": "We are always ready to answer your questions and help your business",
+    "info": "Contact Information",
+    "addressTitle": "Address",
+    "address": "Kazakhstan, Astana, Nura district, Turan Avenue, 56, apt. 8, postal code 010000",
+    "phoneTitle": "Phone",
+    "phone": "+7 (777) 392-72-27",
+    "email": "info@a-pro.center/ais.pro.kz@gmail.com",
+    "socialTitle": "Social networks"
+  }
+}
