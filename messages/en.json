@@ -93,11 +93,6 @@
           "photo": "/images/photo3.jpeg"
         },
         {
-          "name": "TOO neSPI",
-          "position": "Co-founder, partner",
-          "photo": "/images/logo_off.jpeg"
-        },
-        {
           "name": "Adam Ishimgaliyev",
           "position": "Co-founder, international direction",
           "photo": "/images/photo4.jpeg"
@@ -178,7 +173,7 @@
       },
       {
         "title": "Social Adaptation and Integration",
-        "description": "Social adaptation and post-military integration program: Providing assistance to people in social adaptation, psychological support, and integration into society.",
+        "description": "Program for the social adaptation of active military personnel, law enforcement employees, and post‑military integration. Providing assistance to people in social adaptation, support, and integration into society.",
         "icon": "/images/logo0.jpg",
         "features": [
           "Account management",

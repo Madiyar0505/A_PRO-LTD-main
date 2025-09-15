@@ -61,11 +61,22 @@ export default function About() {
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold mb-8 text-[#22543d] text-center">{t('team.title')}</h2>
           <div className="flex flex-wrap justify-center gap-8">
-            {members.map((member: Member, idx: number) => {
+            {members.map((member: Member) => {
+              const trimmedName = member.name.trim();
               let personSlug = "";
-              if (idx === 0) personSlug = "person1";
-              else if (idx === 1) personSlug = "person2";
-              else if (idx === 2) personSlug = "person3";
+              if (
+                ["Айнур Ишимгалиева", "Айнұр Ишимғалиева", "Ainur Ishimgaliyeva"].includes(trimmedName)
+              ) {
+                personSlug = "person1";
+              } else if (
+                ["Рустем Жантенов", "Рүстем Жантенов", "Rustem Zhantenov"].includes(trimmedName)
+              ) {
+                personSlug = "person2";
+              } else if (
+                ["Адам Ишимгалиев", "Адам Ишимғалиев", "Adam Ishimgaliyev"].includes(trimmedName)
+              ) {
+                personSlug = "person3";
+              }
               const cardContent = (
                 <div className="flex flex-col items-center bg-white rounded-2xl shadow-xl p-8 w-80 max-w-full">
                   <div className="w-40 h-40 rounded-full border-2 border-[#22543d] flex items-center justify-center mb-4 overflow-hidden bg-white shadow-lg">
@@ -77,7 +88,6 @@ export default function About() {
               );
               return personSlug ? (
                 <Link
-                  key={idx}
                   href={`/${locale}/about/${personSlug}`}
                   target="_blank"
                   className="hover:scale-105 transition-transform"
@@ -85,7 +95,7 @@ export default function About() {
                   {cardContent}
                 </Link>
               ) : (
-                <div key={idx}>{cardContent}</div>
+                <div>{cardContent}</div>
               );
             })}
           </div>
